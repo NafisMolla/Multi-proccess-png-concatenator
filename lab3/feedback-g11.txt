@@ -1,0 +1,280 @@
+paster2 execution time: 5.483596 seconds
+Buffer Size (B) = 10
+# Producers (P) = 5
+# Consumers (C) = 10
+# Wait Time (X) = 0
+Image ID (N) = 1
+Execution time = 2.127228260040283 seconds
+
+Test 1: -- PNG Signature -- PASS
+Output: 89504e47
+Expected: 89504e47
+------
+Test 2: -- Width -- PASS
+Output: 00000190
+Expected: 00000190
+------
+Test 3: -- Height -- PASS
+Output: 0000012c
+Expected: 0000012c
+------
+Test 4: -- IHDR CRC -- PASS
+Output: edb7e5c2
+Expected: edb7e5c2
+------
+Test 5: -- IDAT Length -- PASS
+Output: 0002a806
+Expected: 0002a806
+------
+Test 6: -- IDAT 100th Byte -- PASS
+Output: ce3ee7ee
+Expected: ce3ee7ee
+------
+Test 7: -- IDAT 200th Byte -- PASS
+Output: 27b70e2c
+Expected: 27b70e2c
+------
+Test 8: -- IDAT 300th Byte -- PASS
+Output: 9c58b25c
+Expected: 9c58b25c
+------
+Test 9: -- IDAT 400th Byte -- PASS
+Output: 27a7b8ff
+Expected: 27a7b8ff
+------
+Test 10: -- IDAT CRC -- PASS
+Output: 6e121783
+Expected: 6e121783
+------
+Test 11: -- IEND -- PASS
+Output: 0000000049454e44ae426082
+Expected: 0000000049454e44ae426082
+------
+Total Test Case Grade = 15 / 15
+
+========
+
+Buffer Size (B) = 5
+# Producers (P) = 5
+# Consumers (C) = 5
+# Wait Time (X) = 200
+Image ID (N) = 1
+Execution time = 4.136597156524658 seconds
+
+Test 1: -- PNG Signature -- PASS
+Output: 89504e47
+Expected: 89504e47
+------
+Test 2: -- Width -- PASS
+Output: 00000190
+Expected: 00000190
+------
+Test 3: -- Height -- PASS
+Output: 0000012c
+Expected: 0000012c
+------
+Test 4: -- IHDR CRC -- PASS
+Output: edb7e5c2
+Expected: edb7e5c2
+------
+Test 5: -- IDAT Length -- PASS
+Output: 0002a806
+Expected: 0002a806
+------
+Test 6: -- IDAT 100th Byte -- PASS
+Output: ce3ee7ee
+Expected: ce3ee7ee
+------
+Test 7: -- IDAT 200th Byte -- PASS
+Output: 27b70e2c
+Expected: 27b70e2c
+------
+Test 8: -- IDAT 300th Byte -- PASS
+Output: 9c58b25c
+Expected: 9c58b25c
+------
+Test 9: -- IDAT 400th Byte -- PASS
+Output: 27a7b8ff
+Expected: 27a7b8ff
+------
+Test 10: -- IDAT CRC -- PASS
+Output: 6e121783
+Expected: 6e121783
+------
+Test 11: -- IEND -- PASS
+Output: 0000000049454e44ae426082
+Expected: 0000000049454e44ae426082
+------
+Total Test Case Grade = 15 / 15
+
+========
+
+Buffer Size (B) = 10
+# Producers (P) = 10
+# Consumers (C) = 1
+# Wait Time (X) = 200
+Image ID (N) = 1
+Execution time = 10.3135986328125 seconds
+
+Test 1: -- PNG Signature -- PASS
+Output: 89504e47
+Expected: 89504e47
+------
+Test 2: -- Width -- PASS
+Output: 00000190
+Expected: 00000190
+------
+Test 3: -- Height -- PASS
+Output: 0000012c
+Expected: 0000012c
+------
+Test 4: -- IHDR CRC -- PASS
+Output: edb7e5c2
+Expected: edb7e5c2
+------
+Test 5: -- IDAT Length -- PASS
+Output: 0002a806
+Expected: 0002a806
+------
+Test 6: -- IDAT 100th Byte -- PASS
+Output: ce3ee7ee
+Expected: ce3ee7ee
+------
+Test 7: -- IDAT 200th Byte -- PASS
+Output: 27b70e2c
+Expected: 27b70e2c
+------
+Test 8: -- IDAT 300th Byte -- PASS
+Output: 9c58b25c
+Expected: 9c58b25c
+------
+Test 9: -- IDAT 400th Byte -- PASS
+Output: 27a7b8ff
+Expected: 27a7b8ff
+------
+Test 10: -- IDAT CRC -- PASS
+Output: 6e121783
+Expected: 6e121783
+------
+Test 11: -- IEND -- PASS
+Output: 0000000049454e44ae426082
+Expected: 0000000049454e44ae426082
+------
+Total Test Case Grade = 15 / 15
+
+========
+
+Buffer Size (B) = 10
+# Producers (P) = 1
+# Consumers (C) = 1
+# Wait Time (X) = 400
+Image ID (N) = 1
+Execution time = 20.266897678375244 seconds
+
+Test 1: -- PNG Signature -- PASS
+Output: 89504e47
+Expected: 89504e47
+------
+Test 2: -- Width -- PASS
+Output: 00000190
+Expected: 00000190
+------
+Test 3: -- Height -- PASS
+Output: 0000012c
+Expected: 0000012c
+------
+Test 4: -- IHDR CRC -- PASS
+Output: edb7e5c2
+Expected: edb7e5c2
+------
+Test 5: -- IDAT Length -- PASS
+Output: 0002a806
+Expected: 0002a806
+------
+Test 6: -- IDAT 100th Byte -- PASS
+Output: ce3ee7ee
+Expected: ce3ee7ee
+------
+Test 7: -- IDAT 200th Byte -- PASS
+Output: 27b70e2c
+Expected: 27b70e2c
+------
+Test 8: -- IDAT 300th Byte -- PASS
+Output: 9c58b25c
+Expected: 9c58b25c
+------
+Test 9: -- IDAT 400th Byte -- PASS
+Output: 27a7b8ff
+Expected: 27a7b8ff
+------
+Test 10: -- IDAT CRC -- PASS
+Output: 6e121783
+Expected: 6e121783
+------
+Test 11: -- IEND -- PASS
+Output: 0000000049454e44ae426082
+Expected: 0000000049454e44ae426082
+------
+Total Test Case Grade = 15 / 15
+
+========
+
+Buffer Size (B) = 10
+# Producers (P) = 10
+# Consumers (C) = 5
+# Wait Time (X) = 400
+Image ID (N) = 1
+Execution time = 4.284283876419067 seconds
+
+Test 1: -- PNG Signature -- PASS
+Output: 89504e47
+Expected: 89504e47
+------
+Test 2: -- Width -- PASS
+Output: 00000190
+Expected: 00000190
+------
+Test 3: -- Height -- PASS
+Output: 0000012c
+Expected: 0000012c
+------
+Test 4: -- IHDR CRC -- PASS
+Output: edb7e5c2
+Expected: edb7e5c2
+------
+Test 5: -- IDAT Length -- PASS
+Output: 0002a806
+Expected: 0002a806
+------
+Test 6: -- IDAT 100th Byte -- PASS
+Output: ce3ee7ee
+Expected: ce3ee7ee
+------
+Test 7: -- IDAT 200th Byte -- PASS
+Output: 27b70e2c
+Expected: 27b70e2c
+------
+Test 8: -- IDAT 300th Byte -- PASS
+Output: 9c58b25c
+Expected: 9c58b25c
+------
+Test 9: -- IDAT 400th Byte -- PASS
+Output: 27a7b8ff
+Expected: 27a7b8ff
+------
+Test 10: -- IDAT CRC -- PASS
+Output: 6e121783
+Expected: 6e121783
+------
+Test 11: -- IEND -- PASS
+Output: 0000000049454e44ae426082
+Expected: 0000000049454e44ae426082
+------
+Total Test Case Grade = 15 / 15
+
+========
+
+Memory Leak Report:
+==1729909==     in use at exit: 0 bytes in 0 blocks
+
+Total Memory Leak Grade = 10 / 10
